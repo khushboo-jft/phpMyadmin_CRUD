@@ -1,0 +1,13 @@
+<div class="data-form">
+    <form method="POST" action="/emp/<%=users[i].id%>/update">
+
+
+        <b>Name:</b><input type="text " id="names" placeholder="Enter name" value="<%=names%>"><br><br>
+        <b> Job:</b><input type="text" id="job" placeholder="Enter job" value="<%=job%>"><br><br>
+        <b>Salary:</b><input type="number" id="salary" placeholder="Enter salary" value="<%=salary %> "><br><br>
+
+        <input id="id" type="hidden" class="form-control txt" value="<%=id %>">
+        
+        <button type="submit">SAVE</button>
+    </form>
+</div>
